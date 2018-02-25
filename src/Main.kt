@@ -46,23 +46,8 @@ class VerbClass: ActionListener {
 
     //setup the windows with buttons
     private val mainFrame = JFrame("Verb Test")
-
     private val checkButton = JButton("Check")
     private val resetButton = JButton("Reset") // will implement later
-
-    init {
-        mainFrame.layout = FlowLayout()
-
-        setVerbs()
-        resetButton.addActionListener(this)
-        checkButton.addActionListener(this)
-        mainFrame.add(checkButton)
-        //mainFrame.add(resetButton)
-
-        mainFrame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
-        mainFrame.setSize(540, numOfRows * 30 + 50)
-        mainFrame.isVisible = true
-    }
 
     // setup the textboxes with verbs
     private val verbs = VerbInit()
@@ -70,6 +55,7 @@ class VerbClass: ActionListener {
     private var markVerb: HashMap<Int, String> = HashMap() // row , default
 
     private fun setVerbs() {
+        println(verbs.getVerb().part2)
         for (i: Int in 0..(numOfRows - 1)) {
             var currentVerb: Verb = verbs.getVerb()
             while (!notIn(currentVerb, usedVerbs)) {
@@ -107,6 +93,20 @@ class VerbClass: ActionListener {
             }
             mistakesFrame.isVisible = true
         }
+    }
+
+    init {
+        mainFrame.layout = FlowLayout()
+
+        setVerbs()
+        resetButton.addActionListener(this)
+        checkButton.addActionListener(this)
+        mainFrame.add(checkButton)
+        //mainFrame.add(resetButton)
+
+        mainFrame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+        mainFrame.setSize(540, numOfRows * 27 + 30)
+        mainFrame.isVisible = true
     }
 }
 

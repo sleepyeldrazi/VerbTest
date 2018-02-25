@@ -150,6 +150,7 @@ class VerbInit{
     )
 
     fun getVerb(): Verb{
+
             val randomNum = rand(0, verbs.size)
             return verbs[randomNum]
     }

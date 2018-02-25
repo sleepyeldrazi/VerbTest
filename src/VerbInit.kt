@@ -86,7 +86,7 @@ class VerbInit{
             Verb("messen","maß","hat gemessen"),
             Verb("nehmen","nahm","hat genommen"),
             Verb("nennen","nannte","hat genannt"),
-            Verb("ernennen","ernennte","hat ernannt"),
+            Verb("ernennen","ernannte","hat ernannt"),
             Verb("raten","riet","hat geraten"),
             Verb("beraten","beriet","hat beraten"),
             Verb("erraten","erriet","hat erraten"),

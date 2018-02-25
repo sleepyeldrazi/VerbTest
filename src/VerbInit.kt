@@ -101,7 +101,7 @@ class VerbInit{
             Verb("scheinen","schien","hat gescheinen"),
             Verb("schieben","schob","hat geschoben"),
             Verb("schießen","schoss","hat geschossen"),
-            Verb("schlafen","schlief","hat geshchlafen"),
+            Verb("schlafen","schlief","hat geschlafen"),
             Verb("schlagen","schlug","hat geschlagen"), // page 3
             Verb("schließen","schloss","hat geschlossen"),
             Verb("beschließen","beschloss","hat beschlossen"),

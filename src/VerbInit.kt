@@ -136,7 +136,7 @@ class VerbInit{
             Verb("tun","tat","hat getan"),
             Verb("vergessen","vergaß","hat vergessen"),
             Verb("verlieren","verlor","hat verloren"),
-            Verb("verzeihen","verhieh","hat verziehen"),
+            Verb("verzeihen","verzieh","hat verziehen"),
             Verb("wachsen","wuchs","ist gewachsen"),
             Verb("waschen","wusch","hat gewaschen"),
             Verb("werden","wurde","ist geworden"),
